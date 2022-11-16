@@ -1,0 +1,36 @@
+body{
+    background-image: -webkit-linear-gradient(
+    left,lavenderblush,lightblue,skyblue
+    );
+}
+
+.a{
+    text-decoration: transparent;
+    background-color:transparent;
+    color: red;
+}
+.input{
+    position: relative;
+    top:20px;
+    text-align: center;
+}
+
+.text{
+    border-radius: 10px;
+    border-width: 2px;
+    width: 400px;
+    height: 100px;
+}
+
+.button{
+    top:1px;
+    left: 1px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.aaa{
+    display: inline-block;
+    position: relative;
+
+}

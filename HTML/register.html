@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>用户注册</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/register.css">
+  <script src="../JS/register.js"></script>
+
+</head>
+
+<body>
+
+  <div class="loginBox">
+    <div style="font-size: 13px">
+      已有账户？
+      <a href="/HTML/login.html">点击登录</a>
+    </div>
+    <h2>Register</h2>
+    <form method="post" action="../PHP/USR/register.php" onsubmit="return checkForm(this)">
+
+      <div class="item">
+        <input type="text" name="username"  autocomplete="off" placeholder="用户名">
+        <label >UserName</label>
+      </div>
+      <div class="item">
+        <input type="text" name="password_1" autocomplete="off" placeholder="密码"></label>
+        <label >Password</label>
+      </div>
+      <div class="item">
+        <input type="text" name="password_2" autocomplete="off" placeholder="密码"></label>
+        <label >Password</label>
+      </div>
+
+      <div id="qqq">
+      <button class="btn" type="submit" name="register">点击注册
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
